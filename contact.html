@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="keywords" content="articles, interesting, collection">
+    <meta name="description" content="A collection of interesting things">
+    <meta name="author" content="Me">
+    <!--
+    <meta http-equiv="refresh" content="60">
+    -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>
+        Random
+    </title>
+</head>
+<body>
+    <nav>
+        <a href="/index.html" id="nav">Home</a>
+        <a href="/calculator.html" id="nav">Calculator</a>
+        <a href="/reviews.html" id="nav">Reviews</a>
+        <a href="/random.html" id="nav">Random</a>
+        <a href="/contact.html" id="nav">Contact</a>
+    </nav>
+    <h1>
+        Contact Form
+    </h1>
+
+    <form>
+        <label for="fName">First name:</label><br>
+        <input type="text" id="fName" name="fName"><br>
+        <label for="lName">Last name:</label><br>
+        <input type="text" id="lName" name="lName"><br><br>
+
+        <p>Is your feedback:</p>
+        <input type="radio" id="positive" name="rating">
+        <label for="positive">Positive</label><br>
+        <input type="radio" id="neutral" name="rating">
+        <label for="neutral">Neutral</label><br>
+        <input type="radio" id="negative" name="rating">
+        <label for="negative">Negative</label><br><br>
+
+        <p>What pages do you have feedback about:</p>
+        <input type="checkbox" id="home" name="home" value="home">
+        <label for="home">Home</label><br>
+        <input type="checkbox" id="reviews" name="reviews" value="reviews">
+        <label for="reviews">Reviews</label><br>
+        <input type="checkbox" id="random" name="random" value="random">
+        <label for="random">Random</label><br>
+        <input type="checkbox" id="contact" name="contact" value="contact">
+        <label for="contact">Contact</label><br><br>
+
+        <label for="pages">Alternatively, use this:</label><br>
+        <select id="pages" name="pages">
+            <option value="home">Home</option>
+            <option value="reviews">Reviews</option>
+            <option value="random">Random</option>
+            <option value="contact">Contact</option>
+        </select><br><br>
+
+        <textarea name="message" rows="10" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit"><br><br>
+
+        <label for="fun">Submit doesn't actually do anything so you can just play with this button</label><br>
+        <input type="button" id="fun" name="fun" value="Fun">
+    </form>
+</body>

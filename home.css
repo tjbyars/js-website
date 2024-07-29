@@ -1,0 +1,87 @@
+nav {
+    color: aliceblue;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#nav {
+    color:white;
+    text-decoration: none;
+}
+
+#nav:hover {
+    background-color: darkgreen;
+    color: coral
+}
+
+sub {
+    border-left: 3px solid #1d4fcf;
+    padding: 2px 5px 2px 5px;
+    background-image: linear-gradient(to right, #ddffff, #d3e3d7);
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #d3e3d7;
+}
+
+.partBorder {
+    padding-right: 60%;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 3px solid #3d703f;
+    padding-bottom: 10px;
+}
+
+#liTitle {
+    text-decoration: none;
+    font-weight: bold;
+    color:darkcyan;
+}
+
+#liTitle:hover {
+    background-color: #007575;
+    color: white;
+}
+
+#liTitle:hover + iframe {
+    opacity: 1;
+    transition: opacity 1.5s linear;
+}
+
+#hoverFrame {
+    opacity: 0;
+    transition: opacity 1.5s linear;
+}
+
+table {
+    padding-right: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.calc {
+    color: purple;
+    width: 40px;
+}
+
+.colourForm {
+    padding-left: 14%;
+    justify-content: center;
+    align-content: center;
+}
+
+#colourText {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+#colourSubmit {
+    font-weight: 600;
+}
